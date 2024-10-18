@@ -1,0 +1,377 @@
+[26-Sep-2024 14:52:58 UTC] PHP Warning:  Undefined variable $qsid in /Users/user/Local Sites/planty2/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 958
+[26-Sep-2024 14:52:58 UTC] PHP Warning:  Undefined variable $qsid in /Users/user/Local Sites/planty2/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 960
+[26-Sep-2024 14:52:58 UTC] PHP Warning:  Undefined variable $qsid in /Users/user/Local Sites/planty2/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 967
+[26-Sep-2024 14:52:58 UTC] PHP Warning:  Undefined variable $qsid in /Users/user/Local Sites/planty2/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 968
+[26-Sep-2024 14:52:58 UTC] PHP Warning:  Undefined variable $qsid in /Users/user/Local Sites/planty2/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 971
+[26-Sep-2024 21:06:17 UTC] PHP Warning:  Undefined array key "editor_post_id" in /Users/user/Local Sites/planty2/app/public/wp-content/plugins/elementor/modules/history/revisions-manager.php on line 363
+[01-Oct-2024 13:58:13 UTC] PHP Parse error:  syntax error, unexpected token ":" in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php on line 42
+[10-Oct-2024 12:48:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "{" in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 26
+[10-Oct-2024 12:48:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[10-Oct-2024 12:48:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[10-Oct-2024 12:51:00 UTC] PHP Parse error:  Unclosed '{' on line 29 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 32
+[10-Oct-2024 12:53:01 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "}", expecting "->" or "?->" or "{" or "[" in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 31
+[10-Oct-2024 13:09:29 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php on line 56
+[10-Oct-2024 13:21:22 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/functions.php on line 1159
+[10-Oct-2024 13:21:22 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/functions.php on line 1159
+[10-Oct-2024 13:25:03 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/functions.php on line 1159
+[10-Oct-2024 13:25:03 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/functions.php on line 1159
+[10-Oct-2024 13:54:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "oceanwp_child_enqueue_parent_style" not found or invalid function name in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/user/Local Sites/planty2/app/public/wp-includes/script-loader.php(2263): do_action('wp_enqueue_scri...')
+#3 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(3065): do_action('wp_head')
+#7 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php(15): wp_head()
+#8 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(810): require_once('/Users/user/Loc...')
+#9 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', true, Array)
+#10 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/page.php(12): get_header()
+#12 /Users/user/Local Sites/planty2/app/public/wp-includes/template-loader.php(106): include('/Users/user/Loc...')
+#13 /Users/user/Local Sites/planty2/app/public/wp-blog-header.php(19): require_once('/Users/user/Loc...')
+#14 /Users/user/Local Sites/planty2/app/public/index.php(17): require('/Users/user/Loc...')
+#15 {main}
+  thrown in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php on line 324
+[10-Oct-2024 13:54:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "oceanwp_child_enqueue_parent_style" not found or invalid function name in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/user/Local Sites/planty2/app/public/wp-includes/script-loader.php(2263): do_action('wp_enqueue_scri...')
+#3 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(3065): do_action('wp_head')
+#7 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php(15): wp_head()
+#8 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(810): require_once('/Users/user/Loc...')
+#9 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', true, Array)
+#10 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/page.php(12): get_header()
+#12 /Users/user/Local Sites/planty2/app/public/wp-includes/template-loader.php(106): include('/Users/user/Loc...')
+#13 /Users/user/Local Sites/planty2/app/public/wp-blog-header.php(19): require_once('/Users/user/Loc...')
+#14 /Users/user/Local Sites/planty2/app/public/index.php(17): require('/Users/user/Loc...')
+#15 {main}
+  thrown in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php on line 324
+[10-Oct-2024 13:54:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "oceanwp_child_enqueue_parent_style" not found or invalid function name in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/user/Local Sites/planty2/app/public/wp-includes/script-loader.php(2263): do_action('wp_enqueue_scri...')
+#3 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(3065): do_action('wp_head')
+#7 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php(15): wp_head()
+#8 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(810): require_once('/Users/user/Loc...')
+#9 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', true, Array)
+#10 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/page.php(12): get_header()
+#12 /Users/user/Local Sites/planty2/app/public/wp-includes/template-loader.php(106): include('/Users/user/Loc...')
+#13 /Users/user/Local Sites/planty2/app/public/wp-blog-header.php(19): require_once('/Users/user/Loc...')
+#14 /Users/user/Local Sites/planty2/app/public/index.php(17): require('/Users/user/Loc...')
+#15 {main}
+  thrown in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php on line 324
+[10-Oct-2024 14:02:49 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/assets/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 11
+[10-Oct-2024 14:02:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/assets/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 11
+[10-Oct-2024 14:02:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/assets/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 11
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 7
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 14
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/js/form-script.js in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 19
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  preg_split(): Unknown modifier 'l' in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 45
+[10-Oct-2024 14:12:50 UTC] PHP Fatal error:  Uncaught TypeError: array_splice(): Argument #1 ($array) must be of type array, bool given in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:46
+Stack trace:
+#0 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php(46): array_splice(false, 1, 0, Array)
+#1 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): display_admin('<li id="menu-it...', Object(stdClass))
+#2 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#3 /Users/user/Local Sites/planty2/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#4 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/nav.php(176): wp_nav_menu(Object(stdClass))
+#5 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#6 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#7 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#8 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/header-content.php(127): get_template_part('partials/header...')
+#9 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_navigation('')
+#10 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/layout.php(100): do_action('ocean_header_in...')
+#13 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#14 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#15 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#16 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/helpers.php(1066): get_template_part('partials/header...')
+#17 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_template('')
+#18 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#19 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php(34): do_action('ocean_header')
+#21 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(810): require_once('/Users/user/Loc...')
+#22 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', true, Array)
+#23 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#24 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/page.php(12): get_header()
+#25 /Users/user/Local Sites/planty2/app/public/wp-includes/template-loader.php(106): include('/Users/user/Loc...')
+#26 /Users/user/Local Sites/planty2/app/public/wp-blog-header.php(19): require_once('/Users/user/Loc...')
+#27 /Users/user/Local Sites/planty2/app/public/index.php(17): require('/Users/user/Loc...')
+#28 {main}
+  thrown in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 46
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 7
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 7
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 14
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/js/form-script.js in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 19
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 14
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/js/form-script.js in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 19
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  preg_split(): Unknown modifier 'l' in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 45
+[10-Oct-2024 14:12:50 UTC] PHP Warning:  preg_split(): Unknown modifier 'l' in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 45
+[10-Oct-2024 14:12:50 UTC] PHP Fatal error:  Uncaught TypeError: array_splice(): Argument #1 ($array) must be of type array, bool given in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:46
+Stack trace:
+#0 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php(46): array_splice(false, 1, 0, Array)
+#1 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): display_admin('<li id="menu-it...', Object(stdClass))
+#2 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#3 /Users/user/Local Sites/planty2/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#4 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/nav.php(176): wp_nav_menu(Object(stdClass))
+#5 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#6 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#7 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#8 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/header-content.php(127): get_template_part('partials/header...')
+#9 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_navigation('')
+#10 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/layout.php(100): do_action('ocean_header_in...')
+#13 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#14 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#15 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#16 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/helpers.php(1066): get_template_part('partials/header...')
+#17 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_template('')
+#18 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#19 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php(34): do_action('ocean_header')
+#21 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(810): require_once('/Users/user/Loc...')
+#22 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', true, Array)
+#23 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#24 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/404.php(51): get_header()
+#25 /Users/user/Local Sites/planty2/app/public/wp-includes/template-loader.php(106): include('/Users/user/Loc...')
+#26 /Users/user/Local Sites/planty2/app/public/wp-blog-header.php(19): require_once('/Users/user/Loc...')
+#27 /Users/user/Local Sites/planty2/app/public/index.php(17): require('/Users/user/Loc...')
+#28 {main}
+  thrown in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 46
+[10-Oct-2024 14:12:50 UTC] PHP Fatal error:  Uncaught TypeError: array_splice(): Argument #1 ($array) must be of type array, bool given in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:46
+Stack trace:
+#0 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php(46): array_splice(false, 1, 0, Array)
+#1 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): display_admin('<li id="menu-it...', Object(stdClass))
+#2 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#3 /Users/user/Local Sites/planty2/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#4 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/nav.php(176): wp_nav_menu(Object(stdClass))
+#5 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#6 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#7 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#8 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/header-content.php(127): get_template_part('partials/header...')
+#9 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_navigation('')
+#10 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/layout.php(100): do_action('ocean_header_in...')
+#13 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#14 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#15 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#16 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/helpers.php(1066): get_template_part('partials/header...')
+#17 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_template('')
+#18 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#19 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php(34): do_action('ocean_header')
+#21 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(810): require_once('/Users/user/Loc...')
+#22 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', true, Array)
+#23 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#24 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/404.php(51): get_header()
+#25 /Users/user/Local Sites/planty2/app/public/wp-includes/template-loader.php(106): include('/Users/user/Loc...')
+#26 /Users/user/Local Sites/planty2/app/public/wp-blog-header.php(19): require_once('/Users/user/Loc...')
+#27 /Users/user/Local Sites/planty2/app/public/index.php(17): require('/Users/user/Loc...')
+#28 {main}
+  thrown in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 46
+[10-Oct-2024 14:14:22 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 32
+[10-Oct-2024 14:14:22 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 32
+[10-Oct-2024 14:14:23 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 32
+[10-Oct-2024 14:14:23 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 32
+[10-Oct-2024 14:18:46 UTC] PHP Warning:  preg_split(): Unknown modifier 'l' in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 31
+[10-Oct-2024 14:18:46 UTC] PHP Fatal error:  Uncaught TypeError: array_splice(): Argument #1 ($array) must be of type array, bool given in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:32
+Stack trace:
+#0 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php(32): array_splice(false, 1, 0, Array)
+#1 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): display_admin('<li id="menu-it...', Object(stdClass))
+#2 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#3 /Users/user/Local Sites/planty2/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#4 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/nav.php(176): wp_nav_menu(Object(stdClass))
+#5 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#6 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#7 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#8 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/header-content.php(127): get_template_part('partials/header...')
+#9 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_navigation('')
+#10 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/layout.php(100): do_action('ocean_header_in...')
+#13 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#14 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#15 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#16 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/helpers.php(1066): get_template_part('partials/header...')
+#17 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_template('')
+#18 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#19 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php(34): do_action('ocean_header')
+#21 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(810): require_once('/Users/user/Loc...')
+#22 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', true, Array)
+#23 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#24 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/page.php(12): get_header()
+#25 /Users/user/Local Sites/planty2/app/public/wp-includes/template-loader.php(106): include('/Users/user/Loc...')
+#26 /Users/user/Local Sites/planty2/app/public/wp-blog-header.php(19): require_once('/Users/user/Loc...')
+#27 /Users/user/Local Sites/planty2/app/public/index.php(17): require('/Users/user/Loc...')
+#28 {main}
+  thrown in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 32
+[10-Oct-2024 14:18:53 UTC] PHP Warning:  preg_split(): Unknown modifier 'l' in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 31
+[10-Oct-2024 14:18:53 UTC] PHP Fatal error:  Uncaught TypeError: array_splice(): Argument #1 ($array) must be of type array, bool given in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:32
+Stack trace:
+#0 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php(32): array_splice(false, 1, 0, Array)
+#1 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): display_admin('<li id="menu-it...', Object(stdClass))
+#2 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#3 /Users/user/Local Sites/planty2/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#4 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/nav.php(176): wp_nav_menu(Object(stdClass))
+#5 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#6 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#7 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#8 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/header-content.php(127): get_template_part('partials/header...')
+#9 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_navigation('')
+#10 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/partials/header/layout.php(100): do_action('ocean_header_in...')
+#13 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(812): require('/Users/user/Loc...')
+#14 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', false, Array)
+#15 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#16 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/inc/helpers.php(1066): get_template_part('partials/header...')
+#17 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(324): oceanwp_header_template('')
+#18 /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#19 /Users/user/Local Sites/planty2/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/header.php(34): do_action('ocean_header')
+#21 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(810): require_once('/Users/user/Loc...')
+#22 /Users/user/Local Sites/planty2/app/public/wp-includes/template.php(745): load_template('/Users/user/Loc...', true, Array)
+#23 /Users/user/Local Sites/planty2/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#24 /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp/page.php(12): get_header()
+#25 /Users/user/Local Sites/planty2/app/public/wp-includes/template-loader.php(106): include('/Users/user/Loc...')
+#26 /Users/user/Local Sites/planty2/app/public/wp-blog-header.php(19): require_once('/Users/user/Loc...')
+#27 /Users/user/Local Sites/planty2/app/public/index.php(17): require('/Users/user/Loc...')
+#28 {main}
+  thrown in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 32
+[10-Oct-2024 14:32:39 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 25
+[10-Oct-2024 14:32:39 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 25
+[12-Oct-2024 09:36:53 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[14-Oct-2024 19:38:57 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 32
+[14-Oct-2024 19:38:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[14-Oct-2024 19:38:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[14-Oct-2024 19:39:19 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 31
+[14-Oct-2024 19:39:19 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 31
+[14-Oct-2024 19:39:34 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:39:34 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:39:36 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:39:36 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:40:01 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 29
+[14-Oct-2024 19:40:01 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 29
+[14-Oct-2024 19:40:04 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 29
+[14-Oct-2024 19:40:04 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 29
+[14-Oct-2024 19:40:28 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:40:28 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:40:31 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:40:31 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:40:58 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 30
+[14-Oct-2024 19:41:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 7
+[14-Oct-2024 19:41:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 14
+[14-Oct-2024 19:41:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 7
+[14-Oct-2024 19:41:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 14
+[14-Oct-2024 19:41:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 7
+[14-Oct-2024 19:41:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 14
+[14-Oct-2024 20:41:24 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:41:34 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:42:27 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:42:47 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:42:51 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:43:25 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:43:35 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:44:28 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:44:48 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:44:52 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:45:26 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:46:14 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:46:15 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:46:21 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:46:29 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:46:30 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:47:14 UTC] PHP Fatal error:  Cannot redeclare enqueue_custom_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:74) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 92
+[14-Oct-2024 20:57:09 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:53) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 102
+[14-Oct-2024 20:57:15 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:53) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 102
+[14-Oct-2024 20:57:15 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:53) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 102
+[14-Oct-2024 20:57:16 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:53) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 102
+[14-Oct-2024 20:57:25 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:53) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 102
+[14-Oct-2024 20:57:49 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:53) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 102
+[14-Oct-2024 20:58:05 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:53) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 102
+[14-Oct-2024 21:01:18 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:02:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:02:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:04:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:05:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:06:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:07:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:08:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:09:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:09:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:09:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:11:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:11:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:13:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:13:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:15:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:15:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[14-Oct-2024 21:16:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[17-Oct-2024 18:38:04 UTC] WordPress database error Server shutdown in progress for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_transient_doing_cron','_transient_timeout_doing_cron') made by include('phar:///Volumes/Install Local/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Volumes/Install Local/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, get_transient, wp_prime_option_caches
+[17-Oct-2024 18:38:04 UTC] WordPress database error Server shutdown in progress for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_transient_doing_cron','_transient_timeout_doing_cron') made by include('phar:///Volumes/Install Local/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Volumes/Install Local/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->do_early_invoke, WP_CLI\Runner->run_command_and_exit, WP_CLI\Runner->run_command, WP_CLI\Dispatcher\Subcommand->invoke, call_user_func, WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}, call_user_func, Eval_Command->__invoke, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, get_transient, wp_prime_option_caches
+[17-Oct-2024 19:20:15 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:20:15 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:20:25 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:20:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[17-Oct-2024 19:20:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/user/Local Sites/planty2/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[17-Oct-2024 19:21:40 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:21:55 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:22:26 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:23:56 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:24:27 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:25:21 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:25:21 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 69
+[17-Oct-2024 19:25:21 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/js/form-script.js in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 71
+[17-Oct-2024 19:25:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[17-Oct-2024 19:25:21 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:25:21 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 69
+[17-Oct-2024 19:25:21 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/js/form-script.js in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 71
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 69
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/js/form-script.js in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 71
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 69
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/js/form-script.js in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 71
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/theme.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 67
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/css/shortcodes/custom-form-container.css in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 69
+[17-Oct-2024 19:25:22 UTC] PHP Warning:  filemtime(): stat failed for /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/js/form-script.js in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 71
+[17-Oct-2024 19:25:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 9
+[17-Oct-2024 19:27:19 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:46) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 103
+[17-Oct-2024 19:27:22 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:46) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 103
+[17-Oct-2024 19:27:58 UTC] PHP Fatal error:  Cannot redeclare display_admin() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:46) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 103
+[17-Oct-2024 19:51:15 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 117
+[17-Oct-2024 19:51:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 117
+[17-Oct-2024 19:51:27 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 117
+[17-Oct-2024 19:51:45 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 117
+[17-Oct-2024 19:52:00 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 117
+[17-Oct-2024 19:52:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 117
+[17-Oct-2024 19:54:01 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 117
+[17-Oct-2024 19:54:26 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 117
+[17-Oct-2024 20:00:27 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 112
+[17-Oct-2024 20:00:33 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 112
+[17-Oct-2024 20:04:04 UTC] PHP Fatal error:  Cannot redeclare add_commander_scroll_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:121) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 134
+[17-Oct-2024 20:04:06 UTC] PHP Fatal error:  Cannot redeclare add_commander_scroll_script() (previously declared in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php:121) in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 134
+[17-Oct-2024 20:06:20 UTC] PHP Parse error:  syntax error, unexpected identifier "ob_start", expecting "{" in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 68
+[17-Oct-2024 20:06:21 UTC] PHP Parse error:  syntax error, unexpected identifier "ob_start", expecting "{" in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 68
+[17-Oct-2024 20:59:50 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 84
+[17-Oct-2024 21:00:36 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 85
+[17-Oct-2024 21:00:38 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 85
+[17-Oct-2024 21:00:39 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 85
+[17-Oct-2024 21:01:28 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 85
+[17-Oct-2024 21:01:36 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 85
+[17-Oct-2024 21:01:44 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/user/Local Sites/planty2/app/public/wp-content/themes/oceanwp-child/functions.php on line 85
